@@ -2,9 +2,9 @@
 
 namespace GoCPA\HttpApiLog;
 
+use GoCPA\HttpApiLog\Commands\HttpApiLogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GoCPA\HttpApiLog\Commands\HttpApiLogCommand;
 
 class HttpApiLogServiceProvider extends PackageServiceProvider
 {

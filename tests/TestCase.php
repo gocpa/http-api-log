@@ -2,9 +2,9 @@
 
 namespace GoCPA\HttpApiLog\Tests;
 
+use GoCPA\HttpApiLog\HttpApiLogServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GoCPA\HttpApiLog\HttpApiLogServiceProvider;
 
 class TestCase extends Orchestra
 {
