@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GoCPA\HttpApiLog\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class HttpApiLogCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'http-api-log';
 
     public $description = 'My command';
 
